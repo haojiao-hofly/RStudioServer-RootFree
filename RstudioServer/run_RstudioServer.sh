@@ -14,6 +14,7 @@ CONDA_R_PREFIX=$MICROMAMBA_ENV/envs/$1
 
 export PATH=$PATH:/usr/local/bin # singularity bin path
 
+chmod +x ${SOFT_DIR}/*.sh
 WORKDIR=$WORKDIR \
 USER=$USER \
 PASSWORD=$PASSWORD \
