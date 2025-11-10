@@ -10,7 +10,7 @@ SOFT_DIR=/path/to/project  #full path
 CONTAINER="${SOFT_DIR}/rstudio_latest.sif" 
 MICROMAMBA=/path/to/micromamba  #full path
 MICROMAMBA_ENV=/path/to/micromamba_env #full path
-CONDA_R_PREFIX=$1
+CONDA_R_PREFIX=$MICROMAMBA_ENV/envs/$1
 
 export PATH=$PATH:/usr/local/bin # singularity bin path
 
