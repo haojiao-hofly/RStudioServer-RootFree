@@ -4,7 +4,7 @@ Deploying RStudio Server using Singularity without root privileges.
 
 
 
-# ============================ CN ============================
+#============================ CN ============================
 ## 免超级管理员权限配置Rstudio server单人版（4.2）
 ## 部署工具：singularity
 ## 管理工具：micromamba
@@ -24,7 +24,7 @@ export PATH=$PATH:/usr/local/bin
 # 5.启动Rstudio server，run_RstudioServer.sh脚本接收一个参数指定R虚拟环境的名称
 sh run_RstudioServer.sh R_env_name
 
-# ============================ EN ============================
+#============================ EN ============================
 ## Configuring RStudio Server Single-User Version (4.2) Without Superuser Privileges
 ## Deployment Tool: singularity
 ## Management Tool: micromamba
