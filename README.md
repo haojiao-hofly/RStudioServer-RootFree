@@ -57,3 +57,13 @@ Deploying RStudio Server using Singularity without root privileges.
 `vi /path/to/project/run_singularity.sh`  
  6. Start RStudio server, run_RstudioServer.sh script accepts one parameter to specify the R virtual environment name  
 `sh run_RstudioServer.sh R_env_name`  
+
+
+
+## 重要参数
+| item           | 描述              |
+| -------------- | --------------- |
+| PORT           | 指定端口            |
+| SOFT_DIR       | 项目根目录           |
+| MICROMAMBA     | micromamba全路径   |
+| MICROMAMBA_ENV | micromamba环境根路径 |
