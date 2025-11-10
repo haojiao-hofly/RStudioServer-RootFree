@@ -23,4 +23,4 @@ MICROMAMBA_ENV=$MICROMAMBA_ENV \
 MICROMAMBA=$MICROMAMBA \
 CONTAINER=$CONTAINER \
 PORT=$PORT \
-sh ${SOFT_DIR}/run_singularity.sh  
+${SOFT_DIR}/run_singularity.sh  
