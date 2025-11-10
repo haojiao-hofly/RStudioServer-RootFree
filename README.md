@@ -11,7 +11,7 @@ Deploying RStudio Server using Singularity without root privileges.
 ## 使用方式-中文   
  - 免超级管理员权限配置Rstudio server单人版（4.2）  
  - 部署工具：singularity  
- - 管理工具：micromamba  
+ - 管理工具：micromamba （可指定环境）
 
 ```
 # 1. 拉取项目 (必须使用lfs拉取镜像文件)  
