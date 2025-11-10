@@ -1,8 +1,9 @@
 # RStudioServer-RootFree
 Deploying RStudio Server using Singularity without root privileges.  
 使用singularity部署Rstudio Server（无需root权限）。  
-  
-  
+
+# 必须使用lfs拉取项目
+git lfs clone https://github.com/haojiao-hofly/RStudioServer-RootFree.git  
   
 #============================ CN ============================  
 ##免超级管理员权限配置Rstudio server单人版（4.2）  
