@@ -10,7 +10,7 @@ Deploying RStudio Server using Singularity without root privileges.
  - 部署工具：singularity  
  - 管理工具：micromamba  
 
-1. 拉取项目 (必须使用lfs拉取镜像文件)
+1. 拉取项目 (必须使用lfs拉取镜像文件)  
 `git clone https://github.com/haojiao-hofly/RStudioServer-RootFree.git`  
 `cd RStudioServer-RootFree`  
 `git lfs pull`  
@@ -45,7 +45,7 @@ Deploying RStudio Server using Singularity without root privileges.
 2. Create and enter working directory, e.g.  
 `mkdir workdir && cd workdir`
   
- 3. Copy configuration files, modify password (password file), add singularity system path 
+ 3. Copy configuration files, modify password (password file), add singularity system path  
 `cp -r /path/to/project/RstudioServer/* ./`   
 `vi password`  
 `export PATH=$PATH:/usr/local/bin`   
