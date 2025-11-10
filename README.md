@@ -37,7 +37,7 @@ Deploying RStudio Server using Singularity without root privileges.
  - Deployment Tool: singularity  
  - Management Tool: micromamba  
   
-1. pull project  
+1. pull project（image files must be fetched via LFS）  
 `git clone https://github.com/haojiao-hofly/RStudioServer-RootFree.git`    
 `cd RStudioServer-RootFree`    
 `git lfs pull`    
@@ -60,10 +60,11 @@ Deploying RStudio Server using Singularity without root privileges.
 
 
 
-## 重要参数
-| item           | 描述              |
-| -------------- | --------------- |
-| PORT           | 指定端口            |
-| SOFT_DIR       | 项目根目录           |
-| MICROMAMBA     | micromamba全路径   |
-| MICROMAMBA_ENV | micromamba环境根路径 |
+## 重要参数（key parameters）
+| item           | 描述                                         |
+| -------------- | ------------------------------------------ |
+| PORT           | 指定端口                                       |
+| SOFT_DIR       | 项目根目录（project root path）                   |
+| MICROMAMBA     | micromamba全路径（micromamba full path）        |
+| MICROMAMBA_ENV | micromamba环境根路径（micromamba ENVs root path） |
+
