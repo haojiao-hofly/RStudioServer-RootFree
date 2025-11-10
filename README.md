@@ -17,7 +17,7 @@ mkdir workdir && cd  workdir
   
 #2.拷贝配置文件，修改密码（password文件），添加singularity系统路径  
 cp  -r /path/to/project/RstudioServer/*  ./  
-vi password 
+vi password  
 export PATH=$PATH:/usr/local/bin  
   
 #3.修改/path/to/project/RstudioServer/run_RstudioServer.sh中的相关参数  
